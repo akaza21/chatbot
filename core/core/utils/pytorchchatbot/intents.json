@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "How to cancel my booking?",
+        "Cancel a booking",
+        "Cancellation before check in",
+        "Cancellation after check in"
+      ],
+      "responses": [
+        "You can cancel your booking through HostelDevta website. You can also mail us at admin@hosteldevta.com to cancel your booking.",
+        "For cancellation 24 hours or more prior to check in time, free cancellation of the booking and if any payment is made for that booking, we will refund the whole paid amount.",
+        "Cancellation after check-in in any case convenience fees will be deducted as part of cancellation charges.",
+        "For cancellation related queries, click here : https://company.hosteldevta.com/cancellation-and-refund-policy"
+      ]
+    },
+    
+    {
+      "tag": "refund",
+      "patterns": [
+        "refund of my payment",
+        "need my refund",
+        "will I get a refund"
+      ],
+      "responses": [
+        "If you have paid the whole amount, the amount will be refunded as per cancellation policy.",
+        "The refund amount(if any) will be credited to you within 10 working days.",
+        "For refund related queries, click here: https://company.hosteldevta.com/cancellation-and-refund-policy"
+      ]
+    }
+  ]
+}
