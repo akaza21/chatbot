@@ -31,7 +31,32 @@
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
-    
+    {
+      "tag":"booking",
+      "patterns":[
+        "booking",
+        "how to book",
+        "booking updates"
+        ],
+        "responses":[
+          "HostelDevta has made Hosts contact number visible to public and interested visitors can contact Host for moving further."
+        ]
+    },
+    {
+      "tag":"contact",
+      "patterns":[
+        "customer support",
+        "contact",
+        "customer service",
+        "phone number",
+        "email",
+        "file a complaint",
+        "complaint"
+      ],
+      "responses":[
+        "to get in touch with us, please click here : https://help.hosteldevta.com/contact-us"
+      ]
+    },
     
     {
       "tag": "cancellation",
@@ -39,7 +64,8 @@
         "How to cancel my booking?",
         "Cancel a booking",
         "Cancellation before check in",
-        "Cancellation after check in"
+        "Cancellation after check in",
+        "cancellation"
       ],
       "responses": [
         "You can cancel your booking through HostelDevta website. You can also mail us at admin@hosteldevta.com to cancel your booking.",
@@ -54,7 +80,8 @@
       "patterns": [
         "refund of my payment",
         "need my refund",
-        "will I get a refund"
+        "will I get a refund",
+        "refund"
       ],
       "responses": [
         "If you have paid the whole amount, the amount will be refunded as per cancellation policy.",
